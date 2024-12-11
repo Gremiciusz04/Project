@@ -64,22 +64,17 @@ header{
     margin-left: 3px;
 }
 
-.i_profile{
+.icon{
     display: flex;
     align-items: center;
     margin-right: 15px;
+    transition: color 0.1s;
+    color: #000000;
+    text-decoration: none;
 }
 
-.i_wish_list{
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-}
-
-.i_shopping_cart{
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
+.icon:hover{
+    color: #868686;
 }
 
 .search_bar{
