@@ -24,6 +24,12 @@ header{
     align-items: center;
     margin-top: 10px;
     margin-left: 15px;  /*zeby bylo tyle samo co w search_and_icons*/
+    cursor: pointer;
+
+}
+
+.button_language:hover{
+    background-color: #e6e6e6;
 }
 
 .button_language .flag_p{
@@ -106,25 +112,49 @@ header{
     justify-content: center;
 }
 
-.category{
+.categories{
     height: 50px;
     width: 350px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.c_clothes{
+.category{
     font-size: 20px;
     font-weight: 100;
+    text-decoration: none;
+    color: #000000;
 }
 
-.c_accessories{
-    font-size: 20px;
-    font-weight: 100;
+.category:hover{
+    color: #868686;
 }
 
 .c_new{
-    font-size: 20px;
-    font-weight: 100;
     color: #D70000;
 }
+
+.c_new:hover{
+    color: #d36c6c;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.block_dress_in_your_style{
+    width: 700px;
+    height: 90px;
+    border: solid 1px black;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_of_the_block_dress_in_your_style{
+    font-size: 30px;
+}
+
