@@ -142,6 +142,8 @@ header{
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .block_dress_in_your_style{
@@ -157,4 +159,106 @@ main{
 .text_of_the_block_dress_in_your_style{
     font-size: 30px;
 }
+
+.pictures_of_clothes{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_items{
+    width: 240px;
+    height: 330px;
+    border: 1px solid black;
+    display: flex;
+    align-items: end;
+
+}
+
+.description{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    margin: 0 -1px -1px -1px; /* zeby byly na rowno z borderem rodzica a nie jeden do tylu*/
+}
+
+.segment_about_us{
+    display: flex;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.left_segment{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+}
+
+.block_about_us{
+    font-size: 30px;
+    text-align: center;
+}
+
+.block_other_text_about_us{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+.pictures_about_us{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+.pictures_about_us_img{
+    /* style dla obrazka*/
+}
+
+footer{
+    background-color: #252525;
+    color:#F4F4F4;
+    width: 100%;
+    height: 370px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.categories_of_footer{
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.category_f{
+    display: flex;
+    flex-direction: column;
+}
+
+.head_of_category{
+    font-size: 25px;
+}
+
+.category_of_category_f{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #F4F4F4;
+    transition: text-decoration 0.1s;
+}
+
+.category_of_category_f:hover{
+    text-decoration: underline;
+}
+
+
+
+
 
